@@ -1,0 +1,42 @@
+body {
+    background-color: #6a5acd;
+    color: #ffffff; /* Text color */
+    font-family: 'Courier New', monospace; /* Font style */
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+section {
+    background-color: #121212; /* Black background for content */
+    border: 1px solid #333333; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Inner spacing */
+    margin-bottom: 20px; /* Space between sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s; /* Animation on hover */
+}
+
+section:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7); /* Darker shadow on hover */
+    background-color: #000000; /* Darker shade of black on hover */
+}
+
+a {
+    color: #ffffff; /* Link color (white) */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
